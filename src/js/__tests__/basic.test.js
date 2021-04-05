@@ -1,4 +1,4 @@
-import getОptions from '../app';
+import getOptions from '../app';
 
 test('get options', () => {
   const character = {
@@ -24,7 +24,7 @@ test('get options', () => {
     ],
   };
 
-  expect(getОptions(character)).toEqual([
+  expect(getOptions(character)).toEqual([
     {
       id: 8,
       name: 'Двойной выстрел',

@@ -1,4 +1,4 @@
-export default function getОptions(obj) {
+export default function getOptions(obj) {
   const result = [];
   obj.special.forEach((element) => {
     const {
